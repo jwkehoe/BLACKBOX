@@ -1,0 +1,14 @@
+{
+  "name": "blackbox",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Portable append-only session-close report mechanism for Claude Code projects — one file per session, a complete-state section appended every turn, never overwritten.",
+  "scripts": {
+    "test": "npx tsx test/append-report.test.ts && npx tsx test/full-pipeline.test.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
